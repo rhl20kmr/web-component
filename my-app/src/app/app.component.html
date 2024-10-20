@@ -1,0 +1,6 @@
+<div>Consumer Application for Web component</div>
+<wc-web-comp1 *axLazyElement="WC_URL_PATH;
+ loadingTemplate: loading;
+ errorTemplate:error"></wc-web-comp1>
+ <ng-template #error>Loading of web component failed</ng-template>
+ <ng-template #loading>Loading, Please wait</ng-template>
